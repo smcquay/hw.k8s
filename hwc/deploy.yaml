@@ -15,7 +15,7 @@ spec:
         app: hwc
     spec:
       containers:
-      - image: smcquay/hwc:v0.0.1
+      - image: smcquay/hwc:v0.0.5
         name: hwc
         ports:
           - containerPort: 8081
