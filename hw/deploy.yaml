@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hw
+  labels:
+    app: hw
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: hw
+  template:
+    metadata:
+      labels:
+        app: hw
+    spec:
+      containers:
+      - image: smcquay/hw:v0.0.5
+        name: hw
+        ports:
+          - containerPort: 8080
