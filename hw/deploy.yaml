@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hw
-        image: smcquay/hw:v0.0.9
+        image: smcquay/hw:v0.0.10
         ports:
           - containerPort: 8080
         livenessProbe:
