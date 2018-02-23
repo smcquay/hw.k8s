@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hwl
+  labels:
+    app: hwl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hwl
+  template:
+    metadata:
+      labels:
+        app: hwl
+    spec:
+      containers:
+      - name: hwl
+        image: smcquay/hwl:v0.0.1
