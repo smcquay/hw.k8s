@@ -30,3 +30,5 @@ spec:
             path: /ready
             port: 8080
           periodSeconds: 5
+      - image: smcquay/alpine:v0.0.2
+        name: debug
