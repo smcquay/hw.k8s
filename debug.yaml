@@ -5,8 +5,4 @@ metadata:
 spec:
   containers:
   - name: alpine
-    image: smcquay/alpine:v0.0.1
-    command:
-        - /bin/sh
-        - "-c"
-        - "sleep 60m"
+    image: smcquay/alpine:v1.0.0
