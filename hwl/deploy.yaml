@@ -18,5 +18,5 @@ spec:
       containers:
       - name: hwl
         image: smcquay/hwl:v0.0.1
-      - image: smcquay/alpine:v0.0.2
+      - image: smcquay/alpine:v0.0.5
         name: debug

@@ -22,5 +22,5 @@ spec:
           - containerPort: 8081
         command: ["/bin/hwc"]
         args: ["hw.default.svc.cluster.local"]
-      - image: smcquay/alpine:v0.0.2
+      - image: smcquay/alpine:v1.0.0
         name: debug
