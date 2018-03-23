@@ -16,7 +16,7 @@ spec:
     spec:
       terminationGracePeriodSeconds: 3
       containers:
-      - image: smcquay/hwc:v0.0.8
+      - image: smcquay/hwc:v0.1.2
         name: hwc
         ports:
           - containerPort: 8081
