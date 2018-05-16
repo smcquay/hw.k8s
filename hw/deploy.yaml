@@ -18,6 +18,7 @@ spec:
       containers:
       - name: hw
         image: smcquay/hw:v0.1.5
+        imagePullPolicy: Always
         ports:
           - containerPort: 8080
         livenessProbe:
