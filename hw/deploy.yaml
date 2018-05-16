@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         app: hw
+      annotations:
+        security.alpha.kubernetes.io/unsafe-sysctls: net.core.somaxconn=4096
     spec:
       terminationGracePeriodSeconds: 3
       containers:
