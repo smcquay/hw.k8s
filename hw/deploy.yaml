@@ -34,3 +34,5 @@ spec:
           periodSeconds: 5
       - image: smcquay/alpine:v1.0.0
         name: debug
+      nodeSelector:
+        kops.k8s.io/instancegroup: hw
